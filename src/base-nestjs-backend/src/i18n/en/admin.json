@@ -1,0 +1,49 @@
+{
+  "welcome": "Welcome to the admin panel",
+  "error_not_found": "Not found!",
+  "storage": {
+    "file_not_found": "File not found, please check again.",
+    "invalid_file_type": "Only image files are accepted (JPEG, PNG, WebP, GIF, AVIF)."
+  },
+  "auth": {
+    "email_password_invalid": "Incorrect email or password."
+  },
+  "user": {
+    "not_found": "User not found",
+    "old_password_incorrect": "Old password is incorrect",
+    "email_is_existing": "Email already exists",
+    "phone_is_existing": "Phone number already exists",
+    "cannot_delete_self": "You cannot delete the account you are signed in with.",
+    "cannot_change_own_role": "You cannot change the role of the account you are signed in with.",
+    "cannot_change_own_status": "You cannot change the status of the account you are signed in with.",
+    "role_not_assignable": "This role cannot be assigned."
+  },
+  "category": {
+    "not_found": "Category not found",
+    "name_vi_is_existing": "Category name already exists",
+    "has_blogs": "Cannot delete — this category still has {count} posts. Move or delete them first."
+  },
+  "tag": {
+    "not_found": "Tag not found",
+    "name_vi_is_existing": "Name already exists",
+    "in_use_blogs": "Cannot delete — this tag is attached to {count} posts"
+  },
+  "blog": {
+    "not_found": "Post not found",
+    "publish_already": "Post is already published",
+    "title_vi_is_existing": "Post title already exists",
+    "title_is_existing": "Post title already exists, please choose another."
+  },
+  "customer": {
+    "not_found": "Customer not found",
+    "phone_is_existing": "Phone number already exists"
+  },
+  "custom_field_definition": {
+    "not_found": "Custom field not found",
+    "key_is_existing": "Key already exists in this module"
+  },
+  "article": {
+    "delete_active_article": "Cannot delete an active article!",
+    "upload_image_article_not_found": "Article not found!"
+  }
+}

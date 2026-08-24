@@ -1,0 +1,624 @@
+{
+    "home": {
+        "blog_top_view": "Most Viewed Posts",
+        "blog_count_statistic": "Blog Statistics"
+    },
+    "breadcrumbs": {
+        "dashboard": "Dashboard",
+        "tags": "Tags",
+        "tags_create": "Create Tag",
+        "tags_detail": "Tag Detail",
+        "tags_edit": "Edit Tag",
+        "categories": "Categories",
+        "categories_create": "Create Category",
+        "categories_detail": "Category Detail",
+        "categories_edit": "Edit Category",
+        "users": "Users",
+        "users_create": "Create User",
+        "users_detail": "User Detail",
+        "users_edit": "Edit User",
+        "blogs": "Blogs",
+        "blogs_create": "Create Blog",
+        "blogs_detail": "Blog Detail",
+        "blogs_edit": "Edit Blog",
+        "customers": "Customers",
+        "customers_create": "Create Customer",
+        "customers_detail": "Customer Detail",
+        "customers_edit": "Edit Customer",
+        "custom-field-definitions": "Custom Fields",
+        "custom-field-definitions_create": "Create Field",
+        "custom-field-definitions_edit": "Edit Field"
+    },
+    "sidebar": {
+        "dashboard": "Dashboard",
+        "blogs": "Blogs",
+        "users": "Users",
+        "categories": "Categories",
+        "tags": "Tags",
+        "customers": "Customers",
+        "customFieldDefinitions": "Custom Fields"
+    },
+    "auth": {
+        "signIn": {
+            "title": "Sign In",
+            "subtitle": "Enter your account information to log in",
+            "email": "Email",
+            "password": "Password",
+            "emailPlaceholder": "info@gmail.com",
+            "passwordPlaceholder": "Enter your password",
+            "submitButton": "Sign in",
+            "submitting": "Signing in...",
+            "loginSuccess": "Login successful! Redirecting...",
+            "invalidCredentials": "Invalid email or password",
+            "errorOccurred": "An error occurred. Please try again.",
+            "validation": {
+                "emailRequired": "Email is required",
+                "emailInvalid": "Please enter a valid email address",
+                "passwordRequired": "Password is required",
+                "passwordMinLength": "Password must be at least 6 characters"
+            }
+        }
+    },
+    "users": {
+        "pageTitle": "Users Management",
+        "title": "Users Management",
+        "deleteConfirmation": "Are you sure you want to delete this user?",
+        "confirmCreate": {
+            "title": "Confirm Create User",
+            "message": "Are you sure you want to create this user?"
+        },
+        "confirmUpdate": {
+            "title": "Confirm Update User",
+            "message": "Are you sure you want to update this user?"
+        },
+        "confirmDelete": {
+            "title": "Confirm Delete User",
+            "message": "Are you sure you want to delete this user? This action cannot be undone."
+        },
+        "search": "Search",
+        "searchPlaceholder": "Search by name or email...",
+        "role": "Role",
+        "allRoles": "All Roles",
+        "sortBy": "Sort By",
+        "table": {
+            "empty": "No users to display",
+            "name": "Name",
+            "email": "Email",
+            "role": "Role",
+            "phone": "Phone",
+            "createdAt": "Created At",
+            "lastActive": "Last Active",
+            "actions": "Actions",
+            "never": "Never",
+            "unknown": "Unknown"
+        },
+        "actions": {
+            "viewDetails": "View Details",
+            "edit": "Edit",
+            "changePassword": "Change Password",
+            "delete": "Delete"
+        },
+        "pagination": {
+            "showing": "Showing",
+            "to": "to",
+            "of": "of",
+            "users": "users",
+            "page": "Page",
+            "previous": "Previous",
+            "next": "Next"
+        },
+        "sort": {
+            "newestFirst": "Newest First",
+            "oldestFirst": "Oldest First",
+            "nameAZ": "Name (A-Z)",
+            "nameZA": "Name (Z-A)",
+            "emailAZ": "Email (A-Z)",
+            "emailZA": "Email (Z-A)"
+        },
+        "form": {
+            "createTitle": "Create New User",
+            "editTitle": "Edit User",
+            "createSubtitle": "Fill in the details to create a new user.",
+            "editSubtitle": "Update user information. Password can be changed separately.",
+            "name": "Name",
+            "email": "Email",
+            "phoneNumber": "Phone Number",
+            "role": "Role",
+            "password": "Password",
+            "required": "*",
+            "namePlaceholder": "Enter full name",
+            "emailPlaceholder": "user@example.com",
+            "phonePlaceholder": "+1 (555) 123-4567",
+            "passwordPlaceholder": "Enter password (min. 6 characters)",
+            "passwordHint": "Password must be at least 6 characters long.",
+            "cancel": "Cancel",
+            "createButton": "Create User",
+            "updateButton": "Update User",
+            "validation": {
+                "emailRequired": "Email is required",
+                "emailInvalid": "Please enter a valid email address",
+                "nameRequired": "Name is required",
+                "nameMinLength": "Name must be at least 2 characters",
+                "phoneRequired": "Phone number is required",
+                "phoneInvalid": "Please enter a valid phone number",
+                "passwordRequired": "Password is required for new users",
+                "passwordMinLength": "Password must be at least 6 characters"
+            },
+            "roleUnknown": "Other role",
+            "roleUnknownHint": "This account has a role outside the dashboard’s list. Saving here will not change it."
+        },
+        "details": {
+            "title": "User Details",
+            "userId": "User ID",
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "role": "Role",
+            "status": "Status",
+            "close": "Close",
+            "editUser": "Edit User"
+        },
+        "changePassword": {
+            "title": "Change Password",
+            "newPassword": "New Password",
+            "confirmPassword": "Confirm Password",
+            "newPasswordPlaceholder": "Enter new password",
+            "confirmPasswordPlaceholder": "Confirm new password",
+            "cancel": "Cancel",
+            "submitButton": "Change Password",
+            "validation": {
+                "newPasswordRequired": "New password is required",
+                "newPasswordMinLength": "Password must be at least 6 characters",
+                "confirmPasswordRequired": "Please confirm your password",
+                "passwordsNotMatch": "Passwords do not match"
+            }
+        },
+        "messages": {
+            "createSuccess": "User created successfully",
+            "updateSuccess": "User updated successfully",
+            "deleteSuccess": "User deleted successfully",
+            "userCreated": "User created successfully",
+            "userUpdated": "User updated successfully",
+            "userDeleted": "User deleted successfully",
+            "passwordChanged": "Password changed successfully",
+            "deleteConfirm": "Are you sure you want to delete this user?",
+            "fixErrors": "Please fix the form errors",
+            "saveFailed": "Failed to save user",
+            "fetchFailed": "Failed to load users",
+            "deleteFailed": "Failed to delete user",
+            "passwordChangeFailed": "Failed to change password"
+        },
+        "roles": {
+            "admin": "Admin",
+            "manager": "Manager"
+        }
+    },
+    "profile": {
+        "pageTitle": "Profile",
+        "title": "Profile",
+        "personalInfo": "Personal Information",
+        "editProfile": "Edit Profile",
+        "edit": "Edit",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "modal": {
+            "title": "Edit Personal Information",
+            "subtitle": "Update your information to keep your profile up to date.",
+            "namePlaceholder": "Enter your name",
+            "phonePlaceholder": "Enter phone number",
+            "emailNote": "Email cannot be changed",
+            "cancel": "Close",
+            "save": "Save changes",
+            "saving": "Saving..."
+        },
+        "changePassword": {
+            "title": "Change Password",
+            "subtitle": "Enter your current password and new password to change.",
+            "menuItem": "Change password",
+            "oldPassword": "Current Password",
+            "newPassword": "New Password",
+            "confirmPassword": "Confirm New Password",
+            "oldPasswordPlaceholder": "Enter current password",
+            "newPasswordPlaceholder": "Enter new password (min. 6 characters)",
+            "confirmPasswordPlaceholder": "Re-enter new password",
+            "cancel": "Cancel",
+            "submitButton": "Change password",
+            "submitting": "Processing...",
+            "validation": {
+                "oldPasswordRequired": "Current password is required",
+                "newPasswordRequired": "New password is required",
+                "newPasswordMinLength": "Password must be at least 6 characters",
+                "confirmPasswordRequired": "Please confirm your password",
+                "passwordsNotMatch": "Passwords do not match"
+            },
+            "messages": {
+                "success": "Password changed successfully",
+                "failed": "Failed to change password. Please try again."
+            }
+        },
+        "messages": {
+            "nameRequired": "Name is required",
+            "updateSuccess": "Profile updated successfully",
+            "updateFailed": "Failed to update profile",
+            "loadFailed": "Failed to load profile"
+        },
+        "notAvailable": "Not available"
+    },
+    "common": {
+        "fileTooLarge": "Image must be smaller than 5MB",
+        "invalidImageType": "Only JPG and PNG images are allowed",
+        "uploadFailed": "Failed to upload image",
+        "message": {
+            "loading": "Loading...",
+            "saving": "Saving...",
+            "success": "Success",
+            "error": "An error occurred. Please try again.",
+            "noData": "No data to display"
+        },
+        "table": {
+            "actions": "Actions",
+            "sst": "No.",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At",
+            "lastActive": "Last Active",
+            "selectAll": "Select all"
+        },
+        "pagination": {
+            "showing": "Showing",
+            "of": "of"
+        },
+        "button": {
+            "back": "Back",
+            "view": "View",
+            "cancel": "Cancel",
+            "close": "Close",
+            "add": "Add",
+            "edit": "Edit",
+            "save": "Save",
+            "delete": "Delete",
+            "create": "Create",
+            "update": "Update",
+            "confirm": "Confirm",
+            "next": "Next",
+            "previous": "Previous",
+            "search": "Search",
+            "saveAsDraft": "Save as Draft",
+            "publish": "Publish",
+            "preview": "Preview on Website",
+            "setTmpHide": "Temporary Hide",
+            "showFilters": "Show Filters",
+            "hideFilters": "Hide Filters",
+            "clearFilters": "Clear Filters",
+            "activeFilters": "Active filter conditions",
+            "clone": "Duplicate",
+            "changePassword": "Change Password"
+        },
+        "uploadImage": {
+            "clickToUpload": "Upload Image",
+            "remove": "Remove Image"
+        },
+        "dropdown": {
+            "selectOption": "Select",
+            "selectMultipleOption": "Type to search and select",
+            "all": "All"
+        },
+        "imageViewer": {
+            "viewImage": "Click to view larger",
+            "close": "Close",
+            "previous": "Previous image",
+            "next": "Next image",
+            "zoomIn": "Zoom in",
+            "zoomOut": "Zoom out",
+            "resetZoom": "Fit to screen",
+            "openOriginal": "Open the original in a new tab",
+            "imageAlt": "Image"
+        },
+        "changePasswordModal": {
+            "oldPassword": "Current password",
+            "oldPasswordPlaceholder": "Enter your current password",
+            "newPassword": "New password",
+            "newPasswordPlaceholder": "Enter new password",
+            "confirmPassword": "Confirm new password",
+            "confirmPasswordPlaceholder": "Re-enter new password",
+            "cancel": "Cancel",
+            "submitButton": "Change password",
+            "submitting": "Changing...",
+            "validation": {
+                "oldPasswordRequired": "Current password is required",
+                "newPasswordRequired": "New password is required",
+                "newPasswordMinLength": "Password must be at least 6 characters",
+                "confirmPasswordRequired": "Please confirm the new password",
+                "passwordsNotMatch": "Passwords do not match"
+            }
+        }
+    },
+    "tags": {
+        "searchPlaceholder": "Search by name",
+        "modules": {
+            "blog": "Blog",
+            "customer": "Customer",
+            "product": "Product"
+        },
+        "table": {
+            "empty": "No tags to display",
+            "name": "Tag Name",
+            "description": "Description"
+        },
+        "form": {
+            "module": "Module",
+            "name": "Name (Vietnamese)",
+            "namePlaceholder": "Enter tag name in Vietnamese",
+            "nameEn": "Name (English)",
+            "nameEnPlaceholder": "Enter tag name in English",
+            "description": "Description (Vietnamese)",
+            "descriptionPlaceholder": "Enter description in Vietnamese",
+            "descriptionEn": "Description (English)",
+            "descriptionEnPlaceholder": "Enter description in English"
+        },
+        "validation": {
+            "moduleRequired": "Module is required",
+            "nameRequired": "Vietnamese name is required",
+            "nameEnRequired": "English name is required"
+        },
+        "confirmCreate": {
+            "title": "Confirm Create Tag",
+            "message": "Are you sure you want to create this tag?"
+        },
+        "confirmUpdate": {
+            "title": "Confirm Update Tag",
+            "message": "Are you sure you want to update this tag?"
+        },
+        "confirmDelete": {
+            "title": "Confirm Delete Tag",
+            "message": "Are you sure you want to delete this tag? This action cannot be undone."
+        },
+        "messages": {
+            "fetchFailed": "Failed to load tags",
+            "createSuccess": "Tag created successfully",
+            "updateSuccess": "Tag updated successfully",
+            "deleteSuccess": "Tag deleted successfully"
+        },
+        "systemBadge": "System"
+    },
+    "blogs": {
+        "notFound": "Blog not found",
+        "updateFailed": "Failed to update blog",
+        "loadFailed": "Failed to load blog",
+        "search": "Search",
+        "searchPlaceholder": "Search by title or excerpt",
+        "sortBy": "Sort by",
+        "status": {
+            "draft": "Draft",
+            "published": "Published",
+            "tmpHide": "Hidden",
+            "unknown": "Unknown"
+        },
+        "table": {
+            "empty": "No blogs to display",
+            "title": "Title",
+            "author": "Author",
+            "category": "Category",
+            "status": "Status",
+            "tags": "Tags",
+            "language": "Language",
+            "viewCount": "Views",
+            "createdAt": "Created At",
+            "actions": "Actions"
+        },
+        "form": {
+            "bannerImage": "Banner Image (Ratio 4:3)",
+            "title": "Title",
+            "titlePlaceholder": "Enter a concise title (10 - 100 words)",
+            "excerpt": "Excerpt",
+            "excerptPlaceholder": "Enter a short excerpt (100 - 500 words). This will appear at the top of the article.",
+            "content": "Content (add one or more images and text blocks)",
+            "category": "Category",
+            "selectCategory": "Select a category",
+            "tags": "Tags (can select multiple, used for filtering)",
+            "addImage": "Add Image",
+            "addText": "Add Text",
+            "sectionImage": "Image",
+            "sectionText": "Text",
+            "imageCaption": "Image Caption",
+            "language": "Language"
+        },
+        "sort": {
+            "newestFirst": "Newest First",
+            "oldestFirst": "Oldest First",
+            "titleAZ": "Title (A-Z)",
+            "titleZA": "Title (Z-A)"
+        },
+        "validation": {
+            "bannerRequired": "Banner image is required",
+            "categoryRequired": "Category is required",
+            "titleRequired": "Title is required",
+            "titleMaxLength": "Title must not exceed 100 characters",
+            "excerptRequired": "Excerpt is required",
+            "excerptMaxLength": "Excerpt must not exceed 500 words",
+            "contentRequired": "Content is required",
+            "sessionsRequired": "At least one content section is required"
+        },
+        "progress": {
+            "title": "Saving blog...",
+            "validation": "Validating data",
+            "upload": "Uploading images",
+            "saving": "Saving blog",
+            "validationFailed": "Data validation failed"
+        },
+        "confirmCreate": {
+            "title": "Confirm Save Blog",
+            "message": "Are you sure you want to save this blog?"
+        },
+        "confirmPublish": {
+            "title": "Confirm Publish Blog",
+            "message": "Are you sure you want to publish this blog? Once published, it will be publicly visible on the website."
+        },
+        "confirmUpdate": {
+            "title": "Confirm Update Blog",
+            "message": "Are you sure you want to update this blog?"
+        },
+        "confirmDelete": {
+            "title": "Confirm Delete",
+            "message": "Are you sure you want to delete this blog? This action cannot be undone."
+        },
+        "confirmTmpHide": {
+            "title": "Confirm Hide Blog",
+            "message": "Are you sure you want to temporarily hide this blog?"
+        },
+        "messages": {
+            "createFailed": "Failed to create blog",
+            "validationFailed": "Please fix the form errors",
+            "fetchFailed": "Failed to load blog list",
+            "deleteSuccess": "Blog deleted successfully",
+            "publishSuccess": "Blog published successfully",
+            "setTmpHideSuccess": "Blog hidden successfully",
+            "deleteFailed": "Failed to delete blog"
+        }
+    },
+    "categories": {
+        "searchPlaceholder": "Search by name",
+        "table": {
+            "name": "Category Name",
+            "description": "Description"
+        },
+        "modules": {
+            "blog": "Blog",
+            "product": "Product"
+        },
+        "form": {
+            "module": "Module",
+            "name": "Name (Vietnamese)",
+            "namePlaceholder": "Enter category name in Vietnamese",
+            "nameEn": "Name (English)",
+            "nameEnPlaceholder": "Enter category name in English",
+            "description": "Description (Vietnamese)",
+            "descriptionPlaceholder": "Enter description in Vietnamese",
+            "descriptionEn": "Description (English)",
+            "descriptionEnPlaceholder": "Enter description in English"
+        },
+        "validation": {
+            "moduleRequired": "Module is required",
+            "nameRequired": "Vietnamese name is required",
+            "nameEnRequired": "English name is required"
+        },
+        "confirmCreate": {
+            "title": "Confirm Create Category",
+            "message": "Are you sure you want to create this category?"
+        },
+        "confirmUpdate": {
+            "title": "Confirm Update Category",
+            "message": "Are you sure you want to update this category?"
+        },
+        "confirmDelete": {
+            "title": "Confirm Delete Category",
+            "message": "Are you sure you want to delete this category? This action cannot be undone."
+        },
+        "messages": {
+            "fetchFailed": "Failed to load categories",
+            "createSuccess": "Category created successfully",
+            "updateSuccess": "Category updated successfully",
+            "deleteSuccess": "Category deleted successfully"
+        }
+    },
+    "customers": {
+        "searchPlaceholder": "Search by name, phone number",
+        "table": {
+            "empty": "No customers to display",
+            "name": "Full Name",
+            "phone": "Phone Number",
+            "email": "Email",
+            "gender": "Gender",
+            "source": "Source"
+        },
+        "gender": {
+            "male": "Male",
+            "female": "Female",
+            "other": "Other"
+        },
+        "source": {
+            "web": "Web",
+            "facebook": "Facebook",
+            "zalo": "Zalo",
+            "call": "Call"
+        },
+        "form": {
+            "name": "Full Name",
+            "namePlaceholder": "Enter full name",
+            "phone": "Phone Number",
+            "phonePlaceholder": "Enter phone number",
+            "email": "Email",
+            "emailPlaceholder": "Enter email",
+            "gender": "Gender",
+            "genderPlaceholder": "Select gender",
+            "source": "Source",
+            "sourcePlaceholder": "Select source",
+            "address": "Address",
+            "addressPlaceholder": "Enter address",
+            "customFieldsSection": "Additional Information"
+        },
+        "validation": {
+            "nameRequired": "Full name is required",
+            "phoneRequired": "Phone number is required"
+        },
+        "messages": {
+            "fetchFailed": "Failed to load customers",
+            "createSuccess": "Customer created successfully",
+            "updateSuccess": "Customer updated successfully",
+            "deleteSuccess": "Customer deleted successfully"
+        },
+        "confirmCreate": { "title": "Confirm Create Customer", "message": "Are you sure you want to create this customer?" },
+        "confirmUpdate": { "title": "Confirm Update", "message": "Are you sure you want to update this customer?" },
+        "confirmDelete": { "title": "Confirm Delete", "message": "Are you sure you want to delete this customer? This action cannot be undone." }
+    },
+    "customFieldDefinitions": {
+        "moduleSelector": "Select module",
+        "modules": {
+            "customer": "Customer",
+            "booking": "Booking",
+            "order": "Order",
+            "product": "Product"
+        },
+        "table": {
+            "empty": "No custom fields to display",
+            "key": "Key",
+            "label": "Label",
+            "fieldType": "Field Type",
+            "required": "Required",
+            "order": "Order"
+        },
+        "fieldTypes": {
+            "text": "Text",
+            "number": "Number",
+            "date": "Date",
+            "select": "Select"
+        },
+        "form": {
+            "module": "Module",
+            "key": "Key (machine name)",
+            "keyPlaceholder": "e.g. birthday",
+            "label": "Display Label",
+            "labelPlaceholder": "e.g. Date of Birth",
+            "fieldType": "Field Type",
+            "options": "Options (comma-separated)",
+            "optionsPlaceholder": "e.g. Option 1, Option 2",
+            "required": "Required",
+            "order": "Display Order"
+        },
+        "validation": {
+            "moduleRequired": "Module is required",
+            "keyRequired": "Key is required",
+            "labelRequired": "Label is required",
+            "fieldTypeRequired": "Field type is required"
+        },
+        "messages": {
+            "fetchFailed": "Failed to load custom field definitions",
+            "createSuccess": "Custom field created successfully",
+            "updateSuccess": "Custom field updated successfully",
+            "deleteSuccess": "Custom field deleted successfully"
+        },
+        "confirmCreate": { "title": "Confirm Create Field", "message": "Are you sure you want to create this custom field?" },
+        "confirmUpdate": { "title": "Confirm Update Field", "message": "Are you sure you want to update this custom field?" },
+        "confirmDelete": { "title": "Confirm Delete Field", "message": "Are you sure you want to delete this custom field? This action cannot be undone." }
+    }
+}

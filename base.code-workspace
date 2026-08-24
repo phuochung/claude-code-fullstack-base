@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"name": "★ workspace root",
+			"path": "."
+		},
+		{
+			"path": "src/base-nestjs-backend"
+		},
+		{
+			"path": "src/base-nextjs-dashboard"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.DS_Store": true
+		},
+		"search.exclude": {
+			"**/node_modules": true,
+			"**/dist": true,
+			"**/.next": true
+		},
+		"typescript.tsdk": "src/base-nestjs-backend/node_modules/typescript/lib"
+	},
+	"extensions": {
+		"recommendations": [
+			"anthropic.claude-code",
+			"dbaeumer.vscode-eslint",
+			"esbenp.prettier-vscode",
+			"bradlc.vscode-tailwindcss"
+		]
+	}
+}

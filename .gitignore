@@ -1,0 +1,21 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+
+# Dependencies and build output are ignored by each service's own .gitignore
+# (git honours nested .gitignore files). These are belt-and-braces only.
+node_modules/
+dist/
+.next/
+*.tsbuildinfo
+
+# Real env files never belong here — only .env.example is tracked.
+.env
+.env.*
+!.env.example
+
+# Local Claude Code state. .claude/settings.json IS tracked (shared permissions);
+# settings.local.json is per-developer and is not.
+.claude/settings.local.json

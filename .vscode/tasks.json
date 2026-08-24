@@ -1,0 +1,44 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "backend: dev",
+			"type": "shell",
+			"command": "npm run start:dev",
+			"options": { "cwd": "${workspaceFolder}/src/base-nestjs-backend" },
+			"isBackground": true,
+			"problemMatcher": [],
+			"presentation": { "group": "dev", "panel": "dedicated" }
+		},
+		{
+			"label": "dashboard: dev",
+			"type": "shell",
+			"command": "npm run dev",
+			"options": { "cwd": "${workspaceFolder}/src/base-nextjs-dashboard" },
+			"isBackground": true,
+			"problemMatcher": [],
+			"presentation": { "group": "dev", "panel": "dedicated" }
+		},
+		{
+			"label": "dev: all",
+			"dependsOn": ["backend: dev", "dashboard: dev"],
+			"dependsOrder": "parallel",
+			"problemMatcher": []
+		},
+		{
+			"label": "backend: test",
+			"type": "shell",
+			"command": "npm test",
+			"options": { "cwd": "${workspaceFolder}/src/base-nestjs-backend" },
+			"group": "test",
+			"problemMatcher": []
+		},
+		{
+			"label": "verify: all",
+			"type": "shell",
+			"command": "cd src/base-nestjs-backend && npx tsc --noEmit && npm test && cd ../base-nextjs-dashboard && npx tsc --noEmit && npm run build",
+			"options": { "cwd": "${workspaceFolder}" },
+			"problemMatcher": []
+		}
+	]
+}

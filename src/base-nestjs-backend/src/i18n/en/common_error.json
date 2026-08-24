@@ -1,0 +1,6 @@
+{
+  "an_error_occurred": "An error occurred while processing your request, please try again later.",
+  "unauthorized": "Authentication failed.",
+  "too_many_requests": "Too many requests. Please try again in 1 minute.",
+  "forbidden": "You do not have permission to perform this action."
+}

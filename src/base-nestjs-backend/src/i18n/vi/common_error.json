@@ -1,0 +1,6 @@
+{
+  "an_error_occurred": "Lỗi xảy ra trong quá trình xử lý, vui lòng thử lại sau.",
+  "unauthorized": "Authentication failed.",
+  "too_many_requests": "Quá nhiều yêu cầu. Vui lòng thử lại sau 1 phút.",
+  "forbidden": "Bạn không có quyền thực hiện thao tác này."
+}

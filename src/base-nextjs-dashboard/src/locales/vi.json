@@ -1,0 +1,588 @@
+{
+    "common": {
+        "fileTooLarge": "Ảnh phải nhỏ hơn 5MB",
+        "invalidImageType": "Chỉ cho phép ảnh JPG và PNG",
+        "uploadFailed": "Không thể tải ảnh lên",
+        "message": {
+            "loading": "Đang tải...",
+            "saving": "Đang lưu...",
+            "success": "Thành công",
+            "error": "Đã xảy ra lỗi. Vui lòng thử lại.",
+            "noData": "Không có dữ liệu để hiển thị"
+        },
+        "table": {
+            "actions": "Thao tác",
+            "sst": "STT",
+            "createdAt": "Ngày tạo",
+            "updatedAt": "Ngày cập nhật",
+            "lastActive": "Hoạt động lần cuối",
+            "selectAll": "Chọn tất cả"
+        },
+        "pagination": {
+            "showing": "Hiển thị",
+            "of": "trên tổng"
+        },
+        "button": {
+            "back": "Quay lại",
+            "view": "Xem",
+            "cancel": "Hủy",
+            "close": "Đóng",
+            "add": "Thêm",
+            "edit": "Sửa",
+            "save": "Lưu",
+            "delete": "Xóa",
+            "create": "Tạo",
+            "update": "Cập nhật",
+            "confirm": "Xác nhận",
+            "next": "Tiếp",
+            "previous": "Trước",
+            "search": "Tìm kiếm",
+            "saveAsDraft": "Lưu nháp",
+            "publish": "Xuất bản",
+            "preview": "Xem trên Website",
+            "setTmpHide": "Tạm ẩn",
+            "showFilters": "Hiển thị bộ lọc",
+            "hideFilters": "Ẩn bộ lọc",
+            "clearFilters": "Xóa bộ lọc",
+            "activeFilters": "Số điều kiện lọc đang áp dụng",
+            "clone": "Nhân bản",
+            "changePassword": "Đổi mật khẩu"
+        },
+        "uploadImage": {
+            "clickToUpload": "Tải lên Ảnh",
+            "remove": "Xóa Ảnh"
+        },
+        "dropdown": {
+            "selectOption": "Chọn",
+            "selectMultipleOption": "Nhập để tìm kiếm và chọn",
+            "all": "Tất cả"
+        },
+        "imageViewer": {
+            "viewImage": "Nhấn để xem ảnh lớn",
+            "close": "Đóng",
+            "previous": "Ảnh trước",
+            "next": "Ảnh sau",
+            "zoomIn": "Phóng to",
+            "zoomOut": "Thu nhỏ",
+            "resetZoom": "Về kích thước vừa khung",
+            "openOriginal": "Mở ảnh gốc ở tab mới",
+            "imageAlt": "Ảnh"
+        },
+        "changePasswordModal": {
+            "oldPassword": "Mật khẩu hiện tại",
+            "oldPasswordPlaceholder": "Nhập mật khẩu hiện tại",
+            "newPassword": "Mật khẩu mới",
+            "newPasswordPlaceholder": "Nhập mật khẩu mới",
+            "confirmPassword": "Xác nhận mật khẩu mới",
+            "confirmPasswordPlaceholder": "Nhập lại mật khẩu mới",
+            "cancel": "Hủy",
+            "submitButton": "Đổi mật khẩu",
+            "submitting": "Đang đổi...",
+            "validation": {
+                "oldPasswordRequired": "Vui lòng nhập mật khẩu hiện tại",
+                "newPasswordRequired": "Vui lòng nhập mật khẩu mới",
+                "newPasswordMinLength": "Mật khẩu phải có ít nhất 6 ký tự",
+                "confirmPasswordRequired": "Vui lòng xác nhận mật khẩu mới",
+                "passwordsNotMatch": "Mật khẩu không khớp"
+            }
+        }
+    },
+    "home": {
+        "blog_top_view": "Bài viết xem nhiều nhất",
+        "blog_count_statistic": "Thống kê bài viết"
+    },
+    "breadcrumbs": {
+        "dashboard": "Trang Chủ",
+        "tags": "Danh Sách Thẻ",
+        "tags_create": "Tạo Thẻ",
+        "tags_detail": "Chi Tiết Thẻ",
+        "tags_edit": "Sửa Thẻ",
+        "categories": "Danh Mục",
+        "categories_create": "Tạo Danh Mục",
+        "categories_detail": "Chi Tiết Danh Mục",
+        "categories_edit": "Sửa Danh Mục",
+        "users": "Người Dùng",
+        "users_create": "Tạo Người Dùng",
+        "users_detail": "Chi Tiết Người Dùng",
+        "users_edit": "Sửa Người Dùng",
+        "blogs": "Blogs",
+        "blogs_create": "Tạo Blog",
+        "blogs_detail": "Chi Tiết Blog",
+        "blogs_edit": "Sửa Blog",
+        "customers": "Khách Hàng",
+        "customers_create": "Tạo Khách Hàng",
+        "customers_detail": "Chi Tiết Khách Hàng",
+        "customers_edit": "Sửa Khách Hàng",
+        "custom-field-definitions": "Trường Tùy Chỉnh",
+        "custom-field-definitions_create": "Tạo Trường",
+        "custom-field-definitions_edit": "Sửa Trường"
+    },
+    "sidebar": {
+        "dashboard": "Trang Chủ",
+        "blogs": "Blogs",
+        "users": "Người Dùng",
+        "categories": "Danh Mục",
+        "tags": "Thẻ",
+        "customers": "Khách Hàng",
+        "customFieldDefinitions": "Trường Tùy Chỉnh"
+    },
+    "auth": {
+        "signIn": {
+            "title": "Đăng Nhập",
+            "subtitle": "Nhập thông tin tài khoản của bạn để đăng nhập",
+            "email": "Email",
+            "password": "Mật khẩu",
+            "emailPlaceholder": "info@gmail.com",
+            "passwordPlaceholder": "Nhập mật khẩu",
+            "submitButton": "Đăng nhập",
+            "submitting": "Đang đăng nhập...",
+            "loginSuccess": "Đăng nhập thành công! Đang chuyển hướng...",
+            "invalidCredentials": "Email hoặc mật khẩu không hợp lệ",
+            "errorOccurred": "Đã xảy ra lỗi. Vui lòng thử lại.",
+            "validation": {
+                "emailRequired": "Email là bắt buộc",
+                "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+                "passwordRequired": "Mật khẩu là bắt buộc",
+                "passwordMinLength": "Mật khẩu phải có ít nhất 6 ký tự"
+            }
+        }
+    },
+    "profile": {
+        "pageTitle": "Hồ Sơ",
+        "title": "Hồ Sơ",
+        "personalInfo": "Thông Tin Cá Nhân",
+        "editProfile": "Hồ Sơ",
+        "edit": "Sửa",
+        "name": "Tên",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "modal": {
+            "title": "Sửa Thông Tin Cá Nhân",
+            "subtitle": "Cập nhật thông tin của bạn để giữ hồ sơ luôn mới nhất.",
+            "namePlaceholder": "Nhập tên của bạn",
+            "phonePlaceholder": "Nhập số điện thoại",
+            "emailNote": "Email không thể thay đổi",
+            "cancel": "Đóng",
+            "save": "Lưu thay đổi",
+            "saving": "Đang lưu..."
+        },
+        "changePassword": {
+            "title": "Đổi Mật Khẩu",
+            "subtitle": "Nhập mật khẩu hiện tại và mật khẩu mới để thay đổi.",
+            "menuItem": "Đổi mật khẩu",
+            "oldPassword": "Mật khẩu hiện tại",
+            "newPassword": "Mật khẩu mới",
+            "confirmPassword": "Xác nhận mật khẩu mới",
+            "oldPasswordPlaceholder": "Nhập mật khẩu hiện tại",
+            "newPasswordPlaceholder": "Nhập mật khẩu mới (tối thiểu 6 ký tự)",
+            "confirmPasswordPlaceholder": "Nhập lại mật khẩu mới",
+            "cancel": "Hủy",
+            "submitButton": "Đổi mật khẩu",
+            "submitting": "Đang xử lý...",
+            "validation": {
+                "oldPasswordRequired": "Mật khẩu hiện tại là bắt buộc",
+                "newPasswordRequired": "Mật khẩu mới là bắt buộc",
+                "newPasswordMinLength": "Mật khẩu phải có ít nhất 6 ký tự",
+                "confirmPasswordRequired": "Vui lòng xác nhận mật khẩu",
+                "passwordsNotMatch": "Mật khẩu không khớp"
+            },
+            "messages": {
+                "success": "Đổi mật khẩu thành công",
+                "failed": "Đổi mật khẩu thất bại. Vui lòng thử lại."
+            }
+        },
+        "messages": {
+            "nameRequired": "Tên là bắt buộc",
+            "updateSuccess": "Cập nhật hồ sơ thành công",
+            "updateFailed": "Cập nhật hồ sơ thất bại",
+            "loadFailed": "Tải hồ sơ thất bại"
+        },
+        "notAvailable": "Không có"
+    },
+    "blogs": {
+        "notFound": "Không tìm thấy bài viết",
+        "updateFailed": "Không thể cập nhật bài viết",
+        "loadFailed": "Không thể tải bài viết",
+        "search": "Tìm kiếm",
+        "searchPlaceholder": "Tìm theo tiêu đề hoặc trích đoạn",
+        "sortBy": "Sắp xếp theo",
+        "status": {
+            "draft": "Bản nháp",
+            "published": "Đã đăng",
+            "tmpHide": "Tạm ẩn",
+            "unknown": "Không xác định"
+        },
+        "table": {
+            "empty": "Không có bài viết để hiển thị",
+            "title": "Tiêu Đề",
+            "author": "Tác Giả",
+            "category": "Danh Mục",
+            "status": "Trạng Thái",
+            "tags": "Thẻ",
+            "language": "Ngôn Ngữ",
+            "viewCount": "Lượt Xem",
+            "createdAt": "Ngày Tạo",
+            "actions": "Thao Tác"
+        },
+        "form": {
+            "bannerImage": "Ảnh Banner (Ratio 4:3) (vd: chiều cao 800px,chiều rộng 600px | chiều cao 1000px,chiều rộng 750px)",
+            "title": "Tiêu Đề",
+            "titlePlaceholder": "Nhập tiêu đề, ngắn gọn, súc tích, khoảng 10 - 100 từ",
+            "excerpt": "Trích Đoạn",
+            "excerptPlaceholder": "Nhập trích đoạn ngắn gọn về nội dung blog (khoảng 100 - 500 từ, enter để xuống dòng). Trích đoạn này sẽ hiển ở trên cùng của bài viết.",
+            "content": "Nội Dung (thêm một hoặc nhiều ảnh và văn bản để tạo nội dung blog)",
+            "category": "Danh Mục",
+            "selectCategory": "Chọn danh mục",
+            "tags": "Thẻ (tags, có thể chọn nhiều, phục vụ cho việc lọc tìm kiếm)",
+            "addImage": "Thêm Ảnh",
+            "addText": "Thêm Văn Bản",
+            "sectionImage": "Ảnh",
+            "sectionText": "Văn Bản",
+            "imageCaption": "Chú Thích Ảnh",
+            "language": "Ngôn ngữ"
+        },
+        "sort": {
+            "newestFirst": "Mới nhất",
+            "oldestFirst": "Cũ nhất",
+            "titleAZ": "Tiêu đề (A-Z)",
+            "titleZA": "Tiêu đề (Z-A)"
+        },
+        "validation": {
+            "bannerRequired": "Ảnh banner là bắt buộc",
+            "categoryRequired": "Danh mục là bắt buộc",
+            "titleRequired": "Tiêu đề là bắt buộc",
+            "titleMaxLength": "Tiêu đề không được vượt quá 100 ký tự",
+            "excerptRequired": "Trích đoạn là bắt buộc",
+            "excerptMaxLength": "Trích đoạn không được vượt quá 500 từ",
+            "contentRequired": "Nội dung là bắt buộc",
+            "sessionsRequired": "Phải có ít nhất một phần nội dung"
+        },
+        "progress": {
+            "title": "Đang lưu blog...",
+            "validation": "Xác thực dữ liệu",
+            "upload": "Tải lên hình ảnh",
+            "saving": "Lưu blog",
+            "validationFailed": "Xác thực dữ liệu thất bại"
+        },
+        "confirmCreate": {
+            "title": "Xác nhận lưu blog",
+            "message": "Bạn có chắc chắn muốn lưu blog này?"
+        },
+        "confirmPublish": {
+            "title": "Xác nhận xuất bản blog",
+            "message": "Bạn có chắc chắn muốn xuất bản blog này? Sau khi xuất bản, blog sẽ hiển thị công khai trên trang web."
+        },
+        "confirmUpdate": {
+            "title": "Xác nhận cập nhật blog",
+            "message": "Bạn có chắc chắn muốn cập nhật blog này?"
+        },
+        "confirmDelete": {
+            "title": "Xác nhận xóa",
+            "message": "Bạn có chắc chắn muốn xóa blog này không? Hành động này không thể hoàn tác."
+        },
+        "confirmTmpHide": {
+            "title": "Xác nhận tạm ẩn",
+            "message": "Bạn có chắc chắn muốn tạm ẩn blog này không?"
+        },
+        "messages": {
+            "createFailed": "Không thể tạo bài viết",
+            "validationFailed": "Vui lòng sửa các lỗi trong biểu mẫu",
+            "fetchFailed": "Tải danh sách blog thất bại",
+            "deleteSuccess": "Xóa blog thành công",
+            "publishSuccess": "Xuất bản blog thành công",
+            "setTmpHideSuccess": "Tạm ẩn blog thành công",
+            "deleteFailed": "Xóa blog thất bại"
+        }
+    },
+    "users": {
+        "search": "Tìm kiếm",
+        "searchPlaceholder": "Tìm theo tên, email hoặc số điện thoại",
+        "role": "Vai trò",
+        "allRoles": "Tất cả vai trò",
+        "sortBy": "Sắp xếp theo",
+        "table": {
+            "empty": "Không có người dùng để hiển thị",
+            "name": "Tên",
+            "email": "Email",
+            "role": "Vai trò",
+            "phone": "Số điện thoại",
+            "createdAt": "Ngày tạo",
+            "lastActive": "Hoạt động lần cuối",
+            "actions": "Thao tác",
+            "never": "Chưa bao giờ",
+            "unknown": "Không xác định"
+        },
+        "sort": {
+            "newestFirst": "Mới nhất",
+            "oldestFirst": "Cũ nhất",
+            "nameAZ": "Tên (A-Z)",
+            "nameZA": "Tên (Z-A)",
+            "emailAZ": "Email (A-Z)",
+            "emailZA": "Email (Z-A)"
+        },
+        "form": {
+            "createTitle": "Tạo Người Dùng Mới",
+            "editTitle": "Sửa Người Dùng",
+            "createSubtitle": "Điền thông tin để tạo người dùng mới.",
+            "editSubtitle": "Cập nhật thông tin người dùng. Mật khẩu có thể thay đổi riêng.",
+            "name": "Tên",
+            "email": "Email",
+            "phoneNumber": "Số điện thoại",
+            "role": "Vai trò",
+            "password": "Mật khẩu",
+            "required": "*",
+            "namePlaceholder": "Nhập tên",
+            "emailPlaceholder": "user@example.com",
+            "phonePlaceholder": "+84 123 456 789",
+            "passwordPlaceholder": "Nhập mật khẩu (tối thiểu 6 ký tự)",
+            "passwordHint": "Mật khẩu phải có ít nhất 6 ký tự.",
+            "cancel": "Hủy",
+            "updateButton": "Cập nhật",
+            "validation": {
+                "emailRequired": "Email là bắt buộc",
+                "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+                "nameRequired": "Tên là bắt buộc",
+                "nameMinLength": "Tên phải có ít nhất 2 ký tự",
+                "phoneRequired": "Số điện thoại là bắt buộc",
+                "phoneInvalid": "Vui lòng nhập số điện thoại hợp lệ",
+                "passwordRequired": "Mật khẩu là bắt buộc cho người dùng mới",
+                "passwordMinLength": "Mật khẩu phải có ít nhất 6 ký tự"
+            },
+            "roleUnknown": "Vai trò khác",
+            "roleUnknownHint": "Tài khoản này có vai trò ngoài danh sách của trang quản trị. Lưu thay đổi ở đây sẽ không đổi vai trò."
+        },
+        "changePassword": {
+            "title": "Đổi Mật Khẩu",
+            "newPassword": "Mật khẩu mới",
+            "confirmPassword": "Xác nhận mật khẩu",
+            "newPasswordPlaceholder": "Nhập mật khẩu mới",
+            "confirmPasswordPlaceholder": "Xác nhận mật khẩu mới",
+            "cancel": "Hủy",
+            "submitButton": "Đổi mật khẩu",
+            "validation": {
+                "newPasswordRequired": "Mật khẩu mới là bắt buộc",
+                "newPasswordMinLength": "Mật khẩu phải có ít nhất 6 ký tự",
+                "confirmPasswordRequired": "Vui lòng xác nhận mật khẩu",
+                "passwordsNotMatch": "Mật khẩu không khớp"
+            }
+        },
+        "messages": {
+            "passwordChangeFailed": "Không thể đổi mật khẩu",
+            "createSuccess": "Tạo người dùng thành công",
+            "updateSuccess": "Cập nhật người dùng thành công",
+            "deleteSuccess": "Xóa người dùng thành công",
+            "passwordChanged": "Đổi mật khẩu thành công",
+            "saveFailed": "Lưu người dùng thất bại",
+            "fetchFailed": "Tải danh sách người dùng thất bại"
+        },
+        "roles": {
+            "admin": "Quản trị viên",
+            "manager": "Quản lý"
+        },
+        "confirmCreate": {
+            "title": "Xác nhận tạo người dùng",
+            "message": "Bạn có chắc chắn muốn tạo người dùng này?"
+        },
+        "confirmUpdate": {
+            "title": "Xác nhận cập nhật người dùng",
+            "message": "Bạn có chắc chắn muốn cập nhật người dùng này?"
+        },
+        "confirmDelete": {
+            "title": "Xác nhận xóa người dùng",
+            "message": "Bạn có chắc chắn muốn xóa người dùng này? Hành động này không thể hoàn tác."
+        }
+    },
+    "categories": {
+        "searchPlaceholder": "Tìm theo tên",
+        "modules": {
+            "blog": "Blog",
+            "product": "Sản phẩm"
+        },
+        "table": {
+            "name": "Tên Danh Mục",
+            "description": "Mô Tả"
+        },
+        "form": {
+            "module": "Module",
+            "name": "Tên Danh Mục",
+            "namePlaceholder": "Nhập tên danh mục",
+            "nameEn": "Tên (Tiếng Anh)",
+            "nameEnPlaceholder": "Nhập tên danh mục bằng tiếng Anh",
+            "description": "Mô Tả",
+            "descriptionPlaceholder": "Nhập mô tả danh mục",
+            "descriptionEn": "Mô tả (Tiếng Anh)",
+            "descriptionEnPlaceholder": "Nhập mô tả bằng tiếng Anh"
+        },
+        "validation": {
+            "moduleRequired": "Module là bắt buộc",
+            "nameRequired": "Tên danh mục là bắt buộc",
+            "nameEnRequired": "Tên tiếng Anh là bắt buộc"
+        },
+        "messages": {
+            "fetchFailed": "Tải danh sách danh mục thất bại",
+            "createSuccess": "Tạo danh mục thành công",
+            "updateSuccess": "Cập nhật danh mục thành công",
+            "deleteSuccess": "Xóa danh mục thành công"
+        },
+        "confirmCreate": {
+            "title": "Xác nhận tạo danh mục",
+            "message": "Bạn có chắc chắn muốn tạo danh mục này?"
+        },
+        "confirmUpdate": {
+            "title": "Xác nhận cập nhật danh mục",
+            "message": "Bạn có chắc chắn muốn cập nhật danh mục này?"
+        },
+        "confirmDelete": {
+            "title": "Xác nhận xóa danh mục",
+            "message": "Bạn có chắc chắn muốn xóa danh mục này? Hành động này không thể hoàn tác."
+        }
+    },
+    "tags": {
+        "searchPlaceholder": "Tìm theo tên",
+        "modules": {
+            "blog": "Blog",
+            "customer": "Khách hàng",
+            "product": "Sản phẩm"
+        },
+        "table": {
+            "empty": "Không có thẻ để hiển thị",
+            "name": "Tên Thẻ",
+            "description": "Mô Tả"
+        },
+        "form": {
+            "module": "Module",
+            "name": "Tên Thẻ",
+            "namePlaceholder": "Nhập tên thẻ",
+            "nameEn": "Tên (Tiếng Anh)",
+            "nameEnPlaceholder": "Nhập tên thẻ bằng tiếng Anh",
+            "description": "Mô Tả",
+            "descriptionPlaceholder": "Nhập mô tả thẻ",
+            "descriptionEn": "Mô tả (Tiếng Anh)",
+            "descriptionEnPlaceholder": "Nhập mô tả bằng tiếng Anh"
+        },
+        "validation": {
+            "moduleRequired": "Module là bắt buộc",
+            "nameRequired": "Tên thẻ là bắt buộc",
+            "nameEnRequired": "Tên tiếng Anh là bắt buộc"
+        },
+        "messages": {
+            "fetchFailed": "Tải danh sách thẻ thất bại",
+            "createSuccess": "Tạo thẻ thành công",
+            "updateSuccess": "Cập nhật thẻ thành công",
+            "deleteSuccess": "Xóa thẻ thành công"
+        },
+        "confirmCreate": {
+            "title": "Xác nhận tạo thẻ",
+            "message": "Bạn có chắc chắn muốn tạo thẻ này?"
+        },
+        "confirmUpdate": {
+            "title": "Xác nhận cập nhật thẻ",
+            "message": "Bạn có chắc chắn muốn cập nhật thẻ này?"
+        },
+        "confirmDelete": {
+            "title": "Xác nhận xóa thẻ",
+            "message": "Bạn có chắc chắn muốn xóa thẻ này? Hành động này không thể hoàn tác."
+        },
+        "systemBadge": "Hệ thống"
+    },
+    "customers": {
+        "searchPlaceholder": "Tìm theo tên, số điện thoại",
+        "table": {
+            "empty": "Không có khách hàng để hiển thị",
+            "name": "Họ tên",
+            "phone": "Số điện thoại",
+            "email": "Email",
+            "gender": "Giới tính",
+            "source": "Nguồn"
+        },
+        "gender": {
+            "male": "Nam",
+            "female": "Nữ",
+            "other": "Khác"
+        },
+        "source": {
+            "web": "Website",
+            "facebook": "Facebook",
+            "zalo": "Zalo",
+            "call": "Gọi điện"
+        },
+        "form": {
+            "name": "Họ tên",
+            "namePlaceholder": "Nhập họ tên",
+            "phone": "Số điện thoại",
+            "phonePlaceholder": "Nhập số điện thoại",
+            "email": "Email",
+            "emailPlaceholder": "Nhập email",
+            "gender": "Giới tính",
+            "genderPlaceholder": "Chọn giới tính",
+            "source": "Nguồn",
+            "sourcePlaceholder": "Chọn nguồn",
+            "address": "Địa chỉ",
+            "addressPlaceholder": "Nhập địa chỉ",
+            "customFieldsSection": "Thông tin bổ sung"
+        },
+        "validation": {
+            "nameRequired": "Họ tên là bắt buộc",
+            "phoneRequired": "Số điện thoại là bắt buộc"
+        },
+        "messages": {
+            "fetchFailed": "Tải danh sách khách hàng thất bại",
+            "createSuccess": "Tạo khách hàng thành công",
+            "updateSuccess": "Cập nhật khách hàng thành công",
+            "deleteSuccess": "Xóa khách hàng thành công"
+        },
+        "confirmCreate": { "title": "Xác nhận tạo khách hàng", "message": "Bạn có chắc chắn muốn tạo khách hàng này?" },
+        "confirmUpdate": { "title": "Xác nhận cập nhật", "message": "Bạn có chắc chắn muốn cập nhật khách hàng này?" },
+        "confirmDelete": { "title": "Xác nhận xóa", "message": "Bạn có chắc chắn muốn xóa khách hàng này? Hành động này không thể hoàn tác." }
+    },
+    "customFieldDefinitions": {
+        "moduleSelector": "Chọn module",
+        "modules": {
+            "customer": "Khách hàng",
+            "booking": "Đặt chỗ",
+            "order": "Đơn hàng",
+            "product": "Sản phẩm"
+        },
+        "table": {
+            "empty": "Không có trường tùy chỉnh để hiển thị",
+            "key": "Key",
+            "label": "Nhãn",
+            "fieldType": "Loại trường",
+            "required": "Bắt buộc",
+            "order": "Thứ tự"
+        },
+        "fieldTypes": {
+            "text": "Văn bản",
+            "number": "Số",
+            "date": "Ngày",
+            "select": "Danh sách chọn"
+        },
+        "form": {
+            "module": "Module",
+            "key": "Key (machine name)",
+            "keyPlaceholder": "vd: birthday",
+            "label": "Nhãn hiển thị",
+            "labelPlaceholder": "vd: Ngày sinh",
+            "fieldType": "Loại trường",
+            "options": "Các lựa chọn (phân cách bằng dấu phẩy)",
+            "optionsPlaceholder": "vd: Option 1, Option 2",
+            "required": "Bắt buộc",
+            "order": "Thứ tự hiển thị"
+        },
+        "validation": {
+            "moduleRequired": "Module là bắt buộc",
+            "keyRequired": "Key là bắt buộc",
+            "labelRequired": "Nhãn là bắt buộc",
+            "fieldTypeRequired": "Loại trường là bắt buộc"
+        },
+        "messages": {
+            "fetchFailed": "Tải danh sách trường tùy chỉnh thất bại",
+            "createSuccess": "Tạo trường tùy chỉnh thành công",
+            "updateSuccess": "Cập nhật trường tùy chỉnh thành công",
+            "deleteSuccess": "Xóa trường tùy chỉnh thành công"
+        },
+        "confirmCreate": { "title": "Xác nhận tạo trường", "message": "Bạn có chắc chắn muốn tạo trường tùy chỉnh này?" },
+        "confirmUpdate": { "title": "Xác nhận cập nhật trường", "message": "Bạn có chắc chắn muốn cập nhật trường tùy chỉnh này?" },
+        "confirmDelete": { "title": "Xác nhận xóa trường", "message": "Bạn có chắc chắn muốn xóa trường tùy chỉnh này? Hành động này không thể hoàn tác." }
+    }
+}

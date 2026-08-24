@@ -1,0 +1,28 @@
+# Local quick start: `docker compose up` gives you the API + MongoDB with zero
+# configuration. Dev-only fallbacks (JWT secret, seed admin) apply because
+# NODE_ENV is not `production` — never expose this compose setup to the
+# internet as-is. For production, see Dockerfile and the required env vars in
+# .env.example.
+services:
+  api:
+    build: .
+    ports:
+      - '8080:8080'
+    environment:
+      NODE_ENV: local
+      MONGODB_URI: mongodb://mongo:27017/base-dev
+      CORS_ORIGIN: http://localhost:3001,http://localhost:3002
+      FALLBACK_LANGUAGE: en
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:7
+    # Uncomment to reach MongoDB from your host tooling (Compass, mongosh):
+    # ports:
+    #   - '27017:27017'
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

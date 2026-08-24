@@ -1,0 +1,49 @@
+{
+  "welcome": "Chào mừng bạn đến với trang quản trị",
+  "error_not_found": "Not found!",
+  "storage": {
+    "file_not_found": "File không tồn tại, vui lòng kiểm tra lại.",
+    "invalid_file_type": "Chỉ chấp nhận file ảnh (JPEG, PNG, WebP, GIF, AVIF)."
+  },
+  "auth": {
+    "email_password_invalid": "Email hoặc mật khẩu không đúng."
+  },
+  "user": {
+    "not_found": "Người dùng không tồn tại",
+    "old_password_incorrect": "Mật khẩu cũ không đúng",
+    "email_is_existing": "Email đã tồn tại",
+    "phone_is_existing": "Số điện thoại đã tồn tại",
+    "cannot_delete_self": "Không thể xóa tài khoản bạn đang đăng nhập.",
+    "cannot_change_own_role": "Không thể đổi vai trò của tài khoản bạn đang đăng nhập.",
+    "cannot_change_own_status": "Không thể đổi trạng thái của tài khoản bạn đang đăng nhập.",
+    "role_not_assignable": "Không thể gán vai trò này."
+  },
+  "category": {
+    "not_found": "Danh mục không tồn tại",
+    "name_vi_is_existing": "Tên danh mục đã tồn tại",
+    "has_blogs": "Không thể xóa — danh mục đang có {count} bài viết, vui lòng chuyển hoặc xóa bài viết trước"
+  },
+  "tag": {
+    "not_found": "Thẻ không tồn tại",
+    "name_vi_is_existing": "Tên đã tồn tại",
+    "in_use_blogs": "Không thể xóa — thẻ đang được gắn cho {count} bài viết"
+  },
+  "blog": {
+    "not_found": "Bài viết không tồn tại",
+    "publish_already": "Bài viết đã được public",
+    "title_vi_is_existing": "Tiêu đề bài viết đã tồn tại",
+    "title_is_existing": "Tiêu đề blog đã tồn tại, vui lòng chọn tiêu đề khác."
+  },
+  "customer": {
+    "not_found": "Khách hàng không tồn tại",
+    "phone_is_existing": "Số điện thoại đã tồn tại"
+  },
+  "custom_field_definition": {
+    "not_found": "Trường tùy chỉnh không tồn tại",
+    "key_is_existing": "Key đã tồn tại trong module này"
+  },
+  "article": {
+    "delete_active_article": "Can not delete an active article!",
+    "upload_image_article_not_found": "Article not found!"
+  }
+}
