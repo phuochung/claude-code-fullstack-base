@@ -54,7 +54,11 @@ commit messages and in code comments alike.
 ## Conventions
 
 - One ticket per file, `R<nn>-<slug>.md` (or `G<nn>-` for the shipped starter set).
-- Status lives in the ticket, not in a separate board.
+- State lives in the ticket's frontmatter (`status` / `pri` / `size` / `updated` /
+  `blocked_on`): `todo → in_progress → review → implemented → done`, or `blocked` /
+  `descoped`. `implemented` means code complete and verify green with a human check
+  still owed. A board table, if you keep one, is a view of the frontmatter — never
+  the other way round.
 - A ticket that grows past one reviewable diff should be split, not stretched.
 - Commits are made by hand. A ticket's Result records what was staged; it does
   not commit anything itself.
